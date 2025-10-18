@@ -1,9 +1,9 @@
-name = "monitor-cron"
-main = "index.js"
+name = "cron-job-trigger"
+main = "./index.js"
 compatibility_date = "2025-10-17"
 
 [triggers]
-crons = ["*/5 * * * *"]
+crons = ["*/1 * * * *"]
 
-[vars]
-API_KEY = "@haruna66"
+[build]
+command = "echo Deploying Cloudflare Cron Worker..."
