@@ -1,5 +1,5 @@
 name = "cron-job-trigger"
-main = "./index.js"
+main = ".cron/index.js"
 compatibility_date = "2025-10-17"
 
 [triggers]
