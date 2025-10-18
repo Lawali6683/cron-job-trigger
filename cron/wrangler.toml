@@ -1,6 +1,9 @@
-name = "cron-job-trigger"
+name = "monitor-cron"
 main = "index.js"
 compatibility_date = "2025-10-17"
 
 [triggers]
-crons = ["*/1 * * * *"]
+crons = ["*/5 * * * *"]
+
+[vars]
+API_KEY = "@haruna66"
