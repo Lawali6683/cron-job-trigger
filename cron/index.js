@@ -13,5 +13,8 @@ export default {
         console.error("Error pinging:", url, err.message);
       }
     }
+  },
+  async fetch(request) {
+    return new Response("Cron job active and running ✅", { status: 200 });
   }
 };
